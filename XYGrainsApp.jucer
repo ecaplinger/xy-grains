@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="EHUCSl" name="XYGrainsApp" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="pSfVDY" name="XYGrainsApp">
+    <GROUP id="{FEC04F7A-D194-9532-85B2-5E9171E325C5}" name="Source">
+      <FILE id="miJAre" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="a1B2c3" name="CirclePad.h" compile="0" resource="0" file="Source/CirclePad.h"/>
+      <FILE id="a1B2c4" name="CirclePad.cpp" compile="1" resource="0" file="Source/CirclePad.cpp"/>
+      <FILE id="g1N2e3" name="MotionGrain.h" compile="0" resource="0" file="Source/MotionGrain.h"/>
+      <FILE id="g1N2e4" name="MotionGrain.cpp" compile="1" resource="0" file="Source/MotionGrain.cpp"/>
+      <FILE id="g1N2e5" name="GrainEngine.h" compile="0" resource="0" file="Source/GrainEngine.h"/>
+      <FILE id="g1N2e6" name="GrainEngine.cpp" compile="1" resource="0" file="Source/GrainEngine.cpp"/>
+      <FILE id="RGJUWH" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="L6zr1Q" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="XYGrainsApp"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="XYGrainsApp"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../usr/share/juce/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
